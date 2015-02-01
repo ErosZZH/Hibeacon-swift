@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEF1BA731A7E432B00FBE51A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1BA721A7E432B00FBE51A /* AppDelegate.swift */; };
+		CEF1BA751A7E432B00FBE51A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1BA741A7E432B00FBE51A /* ViewController.swift */; };
+		CEF1BA781A7E432B00FBE51A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF1BA761A7E432B00FBE51A /* Main.storyboard */; };
+		CEF1BA7A1A7E432B00FBE51A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF1BA791A7E432B00FBE51A /* Images.xcassets */; };
+		CEF1BA7D1A7E432B00FBE51A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF1BA7B1A7E432B00FBE51A /* LaunchScreen.xib */; };
+		CEF1BA891A7E432B00FBE51A /* Hibeacons_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1BA881A7E432B00FBE51A /* Hibeacons_swiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF1BA831A7E432B00FBE51A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF1BA651A7E432B00FBE51A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF1BA6C1A7E432B00FBE51A;
+			remoteInfo = "Hibeacons-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEF1BA6D1A7E432B00FBE51A /* Hibeacons-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hibeacons-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF1BA711A7E432B00FBE51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF1BA721A7E432B00FBE51A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF1BA741A7E432B00FBE51A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEF1BA771A7E432B00FBE51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF1BA791A7E432B00FBE51A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEF1BA7C1A7E432B00FBE51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEF1BA821A7E432B00FBE51A /* Hibeacons-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hibeacons-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF1BA871A7E432B00FBE51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF1BA881A7E432B00FBE51A /* Hibeacons_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hibeacons_swiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF1BA6A1A7E432B00FBE51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF1BA7F1A7E432B00FBE51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF1BA641A7E432B00FBE51A = {
+			isa = PBXGroup;
+			children = (
+				CEF1BA6F1A7E432B00FBE51A /* Hibeacons-swift */,
+				CEF1BA851A7E432B00FBE51A /* Hibeacons-swiftTests */,
+				CEF1BA6E1A7E432B00FBE51A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF1BA6E1A7E432B00FBE51A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF1BA6D1A7E432B00FBE51A /* Hibeacons-swift.app */,
+				CEF1BA821A7E432B00FBE51A /* Hibeacons-swiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF1BA6F1A7E432B00FBE51A /* Hibeacons-swift */ = {
+			isa = PBXGroup;
+			children = (
+				CEF1BA721A7E432B00FBE51A /* AppDelegate.swift */,
+				CEF1BA741A7E432B00FBE51A /* ViewController.swift */,
+				CEF1BA761A7E432B00FBE51A /* Main.storyboard */,
+				CEF1BA791A7E432B00FBE51A /* Images.xcassets */,
+				CEF1BA7B1A7E432B00FBE51A /* LaunchScreen.xib */,
+				CEF1BA701A7E432B00FBE51A /* Supporting Files */,
+			);
+			path = "Hibeacons-swift";
+			sourceTree = "<group>";
+		};
+		CEF1BA701A7E432B00FBE51A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEF1BA711A7E432B00FBE51A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEF1BA851A7E432B00FBE51A /* Hibeacons-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF1BA881A7E432B00FBE51A /* Hibeacons_swiftTests.swift */,
+				CEF1BA861A7E432B00FBE51A /* Supporting Files */,
+			);
+			path = "Hibeacons-swiftTests";
+			sourceTree = "<group>";
+		};
+		CEF1BA861A7E432B00FBE51A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEF1BA871A7E432B00FBE51A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF1BA6C1A7E432B00FBE51A /* Hibeacons-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF1BA8C1A7E432B00FBE51A /* Build configuration list for PBXNativeTarget "Hibeacons-swift" */;
+			buildPhases = (
+				CEF1BA691A7E432B00FBE51A /* Sources */,
+				CEF1BA6A1A7E432B00FBE51A /* Frameworks */,
+				CEF1BA6B1A7E432B00FBE51A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hibeacons-swift";
+			productName = "Hibeacons-swift";
+			productReference = CEF1BA6D1A7E432B00FBE51A /* Hibeacons-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF1BA811A7E432B00FBE51A /* Hibeacons-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF1BA8F1A7E432B00FBE51A /* Build configuration list for PBXNativeTarget "Hibeacons-swiftTests" */;
+			buildPhases = (
+				CEF1BA7E1A7E432B00FBE51A /* Sources */,
+				CEF1BA7F1A7E432B00FBE51A /* Frameworks */,
+				CEF1BA801A7E432B00FBE51A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF1BA841A7E432B00FBE51A /* PBXTargetDependency */,
+			);
+			name = "Hibeacons-swiftTests";
+			productName = "Hibeacons-swiftTests";
+			productReference = CEF1BA821A7E432B00FBE51A /* Hibeacons-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF1BA651A7E432B00FBE51A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yzlpie;
+				TargetAttributes = {
+					CEF1BA6C1A7E432B00FBE51A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CEF1BA811A7E432B00FBE51A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CEF1BA6C1A7E432B00FBE51A;
+					};
+				};
+			};
+			buildConfigurationList = CEF1BA681A7E432B00FBE51A /* Build configuration list for PBXProject "Hibeacons-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF1BA641A7E432B00FBE51A;
+			productRefGroup = CEF1BA6E1A7E432B00FBE51A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF1BA6C1A7E432B00FBE51A /* Hibeacons-swift */,
+				CEF1BA811A7E432B00FBE51A /* Hibeacons-swiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF1BA6B1A7E432B00FBE51A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF1BA781A7E432B00FBE51A /* Main.storyboard in Resources */,
+				CEF1BA7D1A7E432B00FBE51A /* LaunchScreen.xib in Resources */,
+				CEF1BA7A1A7E432B00FBE51A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF1BA801A7E432B00FBE51A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF1BA691A7E432B00FBE51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF1BA751A7E432B00FBE51A /* ViewController.swift in Sources */,
+				CEF1BA731A7E432B00FBE51A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF1BA7E1A7E432B00FBE51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF1BA891A7E432B00FBE51A /* Hibeacons_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF1BA841A7E432B00FBE51A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF1BA6C1A7E432B00FBE51A /* Hibeacons-swift */;
+			targetProxy = CEF1BA831A7E432B00FBE51A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEF1BA761A7E432B00FBE51A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF1BA771A7E432B00FBE51A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF1BA7B1A7E432B00FBE51A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF1BA7C1A7E432B00FBE51A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF1BA8A1A7E432B00FBE51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF1BA8B1A7E432B00FBE51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF1BA8D1A7E432B00FBE51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hibeacons-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEF1BA8E1A7E432B00FBE51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hibeacons-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEF1BA901A7E432B00FBE51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hibeacons-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hibeacons-swift.app/Hibeacons-swift";
+			};
+			name = Debug;
+		};
+		CEF1BA911A7E432B00FBE51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hibeacons-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hibeacons-swift.app/Hibeacons-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF1BA681A7E432B00FBE51A /* Build configuration list for PBXProject "Hibeacons-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF1BA8A1A7E432B00FBE51A /* Debug */,
+				CEF1BA8B1A7E432B00FBE51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF1BA8C1A7E432B00FBE51A /* Build configuration list for PBXNativeTarget "Hibeacons-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF1BA8D1A7E432B00FBE51A /* Debug */,
+				CEF1BA8E1A7E432B00FBE51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEF1BA8F1A7E432B00FBE51A /* Build configuration list for PBXNativeTarget "Hibeacons-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF1BA901A7E432B00FBE51A /* Debug */,
+				CEF1BA911A7E432B00FBE51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF1BA651A7E432B00FBE51A /* Project object */;
+}
