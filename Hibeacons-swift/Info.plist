@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-peripheral</string>
+		<string>location</string>
+	</array>
+	<key>NSLocationUsageDescription</key>
+	<string>Required for Monitoring and Ranging.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Required for Monitoring.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Required for Ranging.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -29,6 +40,7 @@
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
+		<string>bluetooth-le</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
